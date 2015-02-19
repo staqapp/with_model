@@ -122,7 +122,7 @@ describe "a temporary ActiveRecord model created with with_model" do
     with_model :BlogPost
 
     it "tableizes the table name" do
-      expect(BlogPost.table_name).to match(/_blog_posts_/)
+      expect(BlogPost.table_name).to match("blog_posts")
       expect(BlogPost.table_name).to eq BlogPost.table_name.downcase
     end
   end
@@ -135,7 +135,7 @@ describe "a temporary ActiveRecord model created with with_model" do
     end
 
     it "tableizes the table name" do
-      expect(BlogPost.table_name).to match(/_blog_posts_/)
+      expect(BlogPost.table_name).to match("blog_posts")
       expect(BlogPost.table_name).to eq BlogPost.table_name.downcase
     end
   end

@@ -68,7 +68,7 @@ module WithModel
     end
 
     def table_name
-      "with_model_#{@name.to_s.tableize}_#{$$}".freeze
+      @table_name ||= @name.to_s.tableize
     end
   end
 end
