@@ -1,6 +1,6 @@
 # [with_model](https://github.com/Casecommons/with_model)
 
-deprecated once all projects are moved to SMC v1.0.0
+deprecated once all projects are moved to polymorphic_integrity v0.1.0 / SMC v1.0.0
 
 [![Build Status](https://secure.travis-ci.org/Casecommons/with_model.svg?branch=master)](https://travis-ci.org/Casecommons/with_model)
 [![Code Climate](https://img.shields.io/codeclimate/github/Casecommons/with_model.svg?style=flat)](https://codeclimate.com/github/Casecommons/with_model)
